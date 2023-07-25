@@ -8,8 +8,6 @@ const mystyle = {
   padding: "10px",
   fontFamily: "Arial"
 };
-
-
 const WeatherForecast = () => {
   const [ date, setDate] = useState([])
   const [ min, setMin] = useState([])
